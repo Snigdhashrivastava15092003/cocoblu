@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Output files
+outputs/
+*.json
+combined_flipkart_result.json
+comparison_result_*.json
+Case_3_files/
+
+# Dummy files
+DUMMY_SIMILARITY2.py
+DUMMY_flipkart_scraper.py
+Dummy_Version2_flipkartScraper.py
+SIMILARITY_DUMMY.py
+rough.py
+Version_3_flipkart_scraper.py
+
+# Html files
+case_1_B095CXYV6D.html
+case_2_B0CCDGZMFM.html
+Case_3.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables (keep the template)
+# setup_aws_env.sh - Keep this commented, we want to track it
+.env
+
+# Temporary files
+*.tmp
+*.bak
+
+# Readme files
+README.md
