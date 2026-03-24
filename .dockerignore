@@ -1,0 +1,119 @@
+# =========================
+# Git & version control
+# =========================
+.git
+.gitignore
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.secrets
+
+# =========================
+# Python cache files
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# =========================
+# Logs & runtime outputs
+# =========================
+logs/
+outputs/
+*.log
+*.out
+
+# =========================
+# Temp / cache folders
+# =========================
+tmp/
+temp/
+cache/
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+
+# =========================
+# Build / distribution
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Debug / local scripts
+# =========================
+debug_*.py
+*_test.py
+test_*.py
+manage_retail_app.ps1
+push_to_github.sh
+
+# =========================
+# Docker / local dev extras
+# =========================
+docker-compose.yml
+*.tar
+
+# =========================
+# Documentation / notes
+# =========================
+README.md
+*.md
+
+# =========================
+# Data / large files
+# =========================
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.pdf
+
+# =========================
+# Media files (not needed)
+# =========================
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+
+# =========================
+# OS / editor files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.gz
+*.tar.gz
+*.rar
+
+# =========================
+# Playwright local cache (reinstalled in container)
+# =========================
+ms-playwright/
